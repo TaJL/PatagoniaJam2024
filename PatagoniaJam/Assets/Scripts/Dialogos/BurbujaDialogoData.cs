@@ -3,8 +3,10 @@ using UnityEngine;
 
 public enum EPersonaje
 {
-    CONSERJE = 0,
-    ORCA = 1,
+    Conserje = 0,
+    OrcaRevelada = 1,
+    OrcaMedioEscondida = 2,
+    OrcaEscondida = 3,
 }
 
 [Serializable]
@@ -14,5 +16,5 @@ public struct BurbujaDialogoData
     public string Mensaje => _mensaje;
 
     [SerializeField] private  EPersonaje _emisor;
-    [SerializeField] private string _mensaje;
+    [SerializeField, Multiline(4)] private string _mensaje;
 }
