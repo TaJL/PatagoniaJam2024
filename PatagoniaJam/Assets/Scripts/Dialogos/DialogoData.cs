@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[CreateAssetMenu()]
+[CreateAssetMenu(menuName = "Patagonia/Dialogo")]
 public class DialogoData : MonoBehaviour
 {
     [SerializeField] private int _cantidadDeBasuraNecesaria;
