@@ -8,6 +8,7 @@ using UnityEngine.UI;
 public class DialogoManager : MonoBehaviour
 {
     public static Action<DialogoData> OnNewDialogoEvent;
+    public static Action OnDialogoTerminoEvent;
 
     [SerializeField] private DialogoData[] _dialogosActivadosPorBasura;
     [SerializeField] private ImagenesDialogo _portraits;
@@ -98,5 +99,6 @@ public class DialogoManager : MonoBehaviour
     private void TerminarDialogo()
     {
         _textBox.SetActive(false);
+        OnDialogoTerminoEvent?.Invoke();
     }
 }
