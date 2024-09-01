@@ -61,6 +61,7 @@ public class Basura : MonoBehaviour
         {
             Color color = _spriteRender.color;
             color.a = 0.4f + 0.6f * _tiempoRestante/_tiempoParaLimpiar;
+            _spriteRender.color = color;
         }
 
         if (_tiempoRestante <= 0)

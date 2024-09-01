@@ -55,6 +55,6 @@ MonoBehaviour:
   x_min: -12
   y_min: -1.44
   x_max: 12
-  y_max: 1.91
+  y_max: 1.5
   spawn_time: 0.001
   spawn_max: 5

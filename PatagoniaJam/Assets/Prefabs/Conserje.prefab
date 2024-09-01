@@ -72,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 100
+  m_SortingOrder: 200
   m_Sprite: {fileID: 21300000, guid: 2b00ff9db5439584e86f40a9db16de3f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -221,6 +221,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _spriteRenderer: {fileID: 1034284955130905604}
+  _assetsToFlip:
+  - {fileID: 6477225532546430643}
   _defaultMiraAIzquierda: 0
 --- !u!114 &2404456839791640368
 MonoBehaviour:
@@ -251,7 +253,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &6477225532546430643
 Transform:
   m_ObjectHideFlags: 0
@@ -261,7 +263,7 @@ Transform:
   m_GameObject: {fileID: 6803919469784449723}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.938, y: -0.423, z: 0}
+  m_LocalPosition: {x: 0.96, y: -0.423, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -309,7 +311,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 5
+  m_Time: 2
   m_PreviewTimeScale: 1
   m_Parameters:
     serializedVersion: 3
@@ -318,8 +320,8 @@ TrailRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.036209106
-        value: 0.14999962
+        time: 0.018508362
+        value: 0.20332909
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -328,7 +330,7 @@ TrailRenderer:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-        value: 0.012496948
+        value: 0.07249451
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -340,9 +342,9 @@ TrailRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 0.6274475, g: 0.93339807, b: 0.9433962, a: 0.15686275}
+      key0: {r: 0.572636, g: 0.9811321, b: 0.55998576, a: 0.039215688}
       key1: {r: 1, g: 1, b: 1, a: 0}
-      key2: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 1, g: 1, b: 1, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
       key5: {r: 0, g: 0, b: 0, a: 0}
