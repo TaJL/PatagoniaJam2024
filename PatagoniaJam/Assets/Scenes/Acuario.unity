@@ -837,6 +837,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4542269075935772865, guid: 400531bbac7a2f44eb79a498c4aafb92, type: 3}
+      propertyPath: _dialogosActivadosPorBasura.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4542269075935772865, guid: 400531bbac7a2f44eb79a498c4aafb92, type: 3}
+      propertyPath: _dialogosActivadosPorBasura.Array.data[6]
+      value: 
+      objectReference: {fileID: 11400000, guid: 9e9998900ff64c148a1ca5fa5dae63b9, type: 2}
+    - target: {fileID: 6302896901543614428, guid: 400531bbac7a2f44eb79a498c4aafb92, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7821998357891049679, guid: 400531bbac7a2f44eb79a498c4aafb92, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -1188,7 +1200,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3790483389223877379, guid: a107a739589acb946aed102f5d781915, type: 3}
       propertyPath: spawn_max
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 3790483389223877379, guid: a107a739589acb946aed102f5d781915, type: 3}
       propertyPath: spawn_time
@@ -1272,6 +1284,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Conserje
       objectReference: {fileID: 0}
+    - target: {fileID: 2404456839791640368, guid: 2caee1fa2876b21439621e7916635858, type: 3}
+      propertyPath: limiteNivel
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 6842626734117911114, guid: 2caee1fa2876b21439621e7916635858, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1311,6 +1327,14 @@ PrefabInstance:
     - target: {fileID: 6842626734117911114, guid: 2caee1fa2876b21439621e7916635858, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6847730280546778388, guid: 2caee1fa2876b21439621e7916635858, type: 3}
+      propertyPath: tiempoDeEspera
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6847730280546778388, guid: 2caee1fa2876b21439621e7916635858, type: 3}
+      propertyPath: hayDiapositivaTransicion
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
