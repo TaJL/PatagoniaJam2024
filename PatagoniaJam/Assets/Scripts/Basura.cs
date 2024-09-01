@@ -4,15 +4,22 @@ using UnityEngine;
 
 public class Basura : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private void OnTriggerEnter2D(Collider2D other)
     {
+        Conserje conserje = other.GetComponent<Conserje>();
+        if (conserje == null)
+        {
+            return;
+        }
         
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerExit2D(Collider2D other)
     {
-        
+        Conserje conserje = other.GetComponent<Conserje>();
+        if (conserje == null)
+        {
+            return;
+        }
     }
 }
