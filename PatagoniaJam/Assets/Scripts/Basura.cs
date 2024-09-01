@@ -71,8 +71,8 @@ public class Basura : MonoBehaviour
 
     private void OnLimpiada()
     {
-        //ContadorBasura conserje = _conserje.GetComponent<ContadorBasura>();
-        //aca sumar al contador de basuras limpiadas ----------------------------
+        ContadorBasura conserje = _conserje.GetComponent<ContadorBasura>();
+        conserje.sumarContadorbasura();
         Destroy(gameObject);
     }
 }
