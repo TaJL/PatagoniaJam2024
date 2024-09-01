@@ -44,5 +44,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3a309a7acdb37b4995cfa369d99c7a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _basuraPrefab: {fileID: 1850063422370487976, guid: 17d44cd21ffc525438870b4193f13017, type: 3}
-  _areaDeSpawneo: {x: 14, y: 1.6}
+  objectsToInstantiate:
+  - {fileID: 5552190686088662914, guid: 17d44cd21ffc525438870b4193f13017, type: 3}
+  - {fileID: 6873515873306171857, guid: 76af12c66f272fe43a259276b2906954, type: 3}
+  x_min: -12
+  y_min: -1.44
+  x_max: 12
+  y_max: 1.91
+  spawn_time: 0.001
+  spawn_max: 5

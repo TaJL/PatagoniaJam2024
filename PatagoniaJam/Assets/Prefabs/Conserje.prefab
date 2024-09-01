@@ -97,6 +97,7 @@ GameObject:
   - component: {fileID: 729433972202221942}
   - component: {fileID: 7922055087077985146}
   - component: {fileID: 5168674027520170456}
+  - component: {fileID: 2404456839791640368}
   m_Layer: 0
   m_Name: Conserje
   m_TagString: Untagged
@@ -221,6 +222,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _spriteRenderer: {fileID: 1034284955130905604}
   _defaultMiraAIzquierda: 0
+--- !u!114 &2404456839791640368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1898141009953451069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e212d0270e336a4d853111dd075397a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  contadorBasura: 0
 --- !u!1 &6803919469784449723
 GameObject:
   m_ObjectHideFlags: 0
