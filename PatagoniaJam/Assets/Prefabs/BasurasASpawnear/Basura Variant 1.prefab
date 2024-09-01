@@ -58,11 +58,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5688678081391811218, guid: 17d44cd21ffc525438870b4193f13017, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 5688678081391811218, guid: 17d44cd21ffc525438870b4193f13017, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 7106773011229959203, guid: 17d44cd21ffc525438870b4193f13017, type: 3}
       propertyPath: m_Enabled
@@ -125,5 +125,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.5, y: 1}
+  m_Size: {x: 1.25, y: 1}
   m_EdgeRadius: 0
