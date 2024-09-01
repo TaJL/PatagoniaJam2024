@@ -28,5 +28,6 @@ public class OrcaVisualizador : MonoBehaviour
     private void ActualizarTransparencia(DialogoData data)
     {
         LeanTween.alpha(_spriteRenderer.gameObject, data.TransparenciaDeBallena, 2);
+        LeanTween.scale(_spriteRenderer.gameObject, data.TransparenciaDeBallena * Vector3.one, 2);
     }
 }
