@@ -1027,7 +1027,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3790483389223877379, guid: a107a739589acb946aed102f5d781915, type: 3}
       propertyPath: objectsToInstantiate.Array.size
-      value: 2
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3790483389223877379, guid: a107a739589acb946aed102f5d781915, type: 3}
       propertyPath: objectsToInstantiate.Array.data[0]
@@ -1037,6 +1037,30 @@ PrefabInstance:
       propertyPath: objectsToInstantiate.Array.data[1]
       value: 
       objectReference: {fileID: 6873515873306171857, guid: 76af12c66f272fe43a259276b2906954, type: 3}
+    - target: {fileID: 3790483389223877379, guid: a107a739589acb946aed102f5d781915, type: 3}
+      propertyPath: objectsToInstantiate.Array.data[2]
+      value: 
+      objectReference: {fileID: 6873515873306171857, guid: 5e519f03045cc4c46bc41e24b081ce3b, type: 3}
+    - target: {fileID: 3790483389223877379, guid: a107a739589acb946aed102f5d781915, type: 3}
+      propertyPath: objectsToInstantiate.Array.data[3]
+      value: 
+      objectReference: {fileID: 6873515873306171857, guid: 687216406a48ed84a816c97e061f5da4, type: 3}
+    - target: {fileID: 3790483389223877379, guid: a107a739589acb946aed102f5d781915, type: 3}
+      propertyPath: objectsToInstantiate.Array.data[4]
+      value: 
+      objectReference: {fileID: 6873515873306171857, guid: 2fded1de5a132924fb04345eaf55635e, type: 3}
+    - target: {fileID: 3790483389223877379, guid: a107a739589acb946aed102f5d781915, type: 3}
+      propertyPath: objectsToInstantiate.Array.data[5]
+      value: 
+      objectReference: {fileID: 6873515873306171857, guid: 7c2c3dba0f6b7874e87d1cbdc1a345f9, type: 3}
+    - target: {fileID: 3790483389223877379, guid: a107a739589acb946aed102f5d781915, type: 3}
+      propertyPath: objectsToInstantiate.Array.data[6]
+      value: 
+      objectReference: {fileID: 6873515873306171857, guid: bf19217785d136947a735760fe43e23f, type: 3}
+    - target: {fileID: 3790483389223877379, guid: a107a739589acb946aed102f5d781915, type: 3}
+      propertyPath: objectsToInstantiate.Array.data[7]
+      value: 
+      objectReference: {fileID: 6873515873306171857, guid: bf19217785d136947a735760fe43e23f, type: 3}
     - target: {fileID: 5702404033411613692, guid: a107a739589acb946aed102f5d781915, type: 3}
       propertyPath: m_Name
       value: BasuraManager
