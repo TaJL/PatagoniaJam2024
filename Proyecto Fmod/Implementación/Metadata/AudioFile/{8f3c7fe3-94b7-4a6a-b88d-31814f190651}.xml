@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{8f3c7fe3-94b7-4a6a-b88d-31814f190651}">
+		<property name="assetPath">
+			<value>Stinger_ok.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>7.6409070294784582</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{41d58e8b-226c-4514-beb8-34f8709a2cd8}</destination>
+		</relationship>
+	</object>
+</objects>
