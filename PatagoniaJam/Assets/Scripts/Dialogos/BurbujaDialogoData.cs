@@ -16,5 +16,5 @@ public struct BurbujaDialogoData
     public string Mensaje => _mensaje;
 
     [SerializeField] private  EPersonaje _emisor;
-    [SerializeField, Multiline(4)] private string _mensaje;
+    [SerializeField, TextAreaAttribute] private string _mensaje;
 }

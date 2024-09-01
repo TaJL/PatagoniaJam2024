@@ -17,7 +17,7 @@ public class Orca : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Vector2 posicionObjetivo = _centroDeAcuario + new Vector3(_conserje.position.x, _acuarioAPisoRatio * _conserje.position.y);
+        Vector2 posicionObjetivo = _centroDeAcuario + new Vector3(_conserje.position.x, -_acuarioAPisoRatio * _conserje.position.y);
         Vector2 direccionObjetivo = (posicionObjetivo - (Vector2)transform.position).normalized;
         Vector2 direccionRandomizada = direccionObjetivo + new Vector2(Random.Range(-_ruido, _ruido), Random.Range(_ruido, _ruido));
         direccionRandomizada.Normalize();
