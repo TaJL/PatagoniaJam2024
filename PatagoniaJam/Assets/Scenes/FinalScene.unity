@@ -398,7 +398,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f217ac258f522344f9dbd3443cae87df, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 29751142b4bdd494b877a605f2a11d7b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -623,8 +623,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.751, y: -160.1271}
-  m_SizeDelta: {x: 189.583, y: 67.462}
+  m_AnchoredPosition: {x: 0.761, y: -152.207}
+  m_SizeDelta: {x: 279.681, y: 68.452}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &831118039
 MonoBehaviour:
@@ -677,7 +677,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
