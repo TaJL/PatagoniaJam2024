@@ -65,7 +65,14 @@ public class Basura : MonoBehaviour
 
         if (_tiempoRestante <= 0)
         {
-            Destroy(gameObject);
+            OnLimpiada();
         }
+    }
+
+    private void OnLimpiada()
+    {
+        //ContadorBasura conserje = _conserje.GetComponent<ContadorBasura>();
+        //aca sumar al contador de basuras limpiadas ----------------------------
+        Destroy(gameObject);
     }
 }
