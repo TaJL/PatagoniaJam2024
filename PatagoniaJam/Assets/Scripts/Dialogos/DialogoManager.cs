@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class DialogoManager : MonoBehaviour
 {
-    private static Action<DialogoData> OnNewDialogoEvent;
+    public static Action<DialogoData> OnNewDialogoEvent;
 
     [SerializeField] private DialogoData[] _dialogosActivadosPorBasura;
     [SerializeField] private GameObject _textBox;

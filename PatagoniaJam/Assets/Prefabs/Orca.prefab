@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7929307988736897804}
   - component: {fileID: 5738261215292974229}
   - component: {fileID: 9215979901475968825}
+  - component: {fileID: 3332593133325441824}
   m_Layer: 0
   m_Name: Orca
   m_TagString: Untagged
@@ -53,7 +54,6 @@ MonoBehaviour:
   _acuarioAPisoRatio: 1.5
   _speed: 1
   _ruido: 0.5
-  _radioDeRuido: 1
 --- !u!50 &7929307988736897804
 Rigidbody2D:
   serializedVersion: 4
@@ -130,6 +130,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _spriteRenderer: {fileID: 5785963979481949881}
   _defaultMiraAIzquierda: 1
+--- !u!114 &3332593133325441824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5412507870516986296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5de600f11eaaa644499f941c6391421a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spriteRenderer: {fileID: 5785963979481949881}
 --- !u!1 &6903110269584730743
 GameObject:
   m_ObjectHideFlags: 0

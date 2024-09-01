@@ -4,6 +4,8 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Patagonia/Dialogo")]
 public class DialogoData : ScriptableObject
 {
+    public float TransparenciaDeBallena => _transparenciaDeBallena;
+
     [Header("Activacion")]
     [SerializeField, Tooltip("Si esta casilla esta marcada, el dialogo se dispara solo cuando el conserge limpie la cantidad necesaria")]
     private bool _dependeDeBasura = true;
