@@ -1001,6 +1001,42 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3790483389223877379, guid: a107a739589acb946aed102f5d781915, type: 3}
+      propertyPath: x_max
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790483389223877379, guid: a107a739589acb946aed102f5d781915, type: 3}
+      propertyPath: x_min
+      value: -12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790483389223877379, guid: a107a739589acb946aed102f5d781915, type: 3}
+      propertyPath: y_max
+      value: 1.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790483389223877379, guid: a107a739589acb946aed102f5d781915, type: 3}
+      propertyPath: y_min
+      value: -1.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790483389223877379, guid: a107a739589acb946aed102f5d781915, type: 3}
+      propertyPath: spawn_max
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790483389223877379, guid: a107a739589acb946aed102f5d781915, type: 3}
+      propertyPath: spawn_time
+      value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790483389223877379, guid: a107a739589acb946aed102f5d781915, type: 3}
+      propertyPath: objectsToInstantiate.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790483389223877379, guid: a107a739589acb946aed102f5d781915, type: 3}
+      propertyPath: objectsToInstantiate.Array.data[0]
+      value: 
+      objectReference: {fileID: 5552190686088662914, guid: 17d44cd21ffc525438870b4193f13017, type: 3}
+    - target: {fileID: 3790483389223877379, guid: a107a739589acb946aed102f5d781915, type: 3}
+      propertyPath: objectsToInstantiate.Array.data[1]
+      value: 
+      objectReference: {fileID: 6873515873306171857, guid: 76af12c66f272fe43a259276b2906954, type: 3}
     - target: {fileID: 5702404033411613692, guid: a107a739589acb946aed102f5d781915, type: 3}
       propertyPath: m_Name
       value: BasuraManager
