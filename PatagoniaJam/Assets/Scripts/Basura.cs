@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Basura : MonoBehaviour
 {
+    public GameObject Basura;
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         Conserje conserje = other.GetComponent<Conserje>();
@@ -11,7 +13,7 @@ public class Basura : MonoBehaviour
         {
             return;
         }
-        
+
     }
 
     private void OnTriggerExit2D(Collider2D other)
