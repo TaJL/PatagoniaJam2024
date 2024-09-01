@@ -14,8 +14,11 @@ public class DialogoManager : MonoBehaviour
     [SerializeField] private GameObject _textBox;
     [SerializeField] private Image _portrait;
     [SerializeField] private TextMeshProUGUI _texto;
+    [SerializeField] private MonoBehaviour _vozConserje;
+    [SerializeField] private MonoBehaviour _vozOrca;
     private DialogoData _dialogoActivo;
     private int _dialogoIndex;
+    private MonoBehaviour _ultimaVoz;
 
     private void Awake()
     {
@@ -71,6 +74,25 @@ public class DialogoManager : MonoBehaviour
         BurbujaDialogoData burbuja = _dialogoActivo.GetBurbuja(_dialogoIndex);
         _texto.text = burbuja.Mensaje;
         _portrait.sprite = _portraits.GetSprite(burbuja.Emisor);
+        if (_ultimaVoz != null)
+        {
+            _ultimaVoz.enabled = false;
+        }
+        switch (burbuja.Emisor)
+        {
+            case EPersonaje.Conserje:
+            {
+                _vozConserje.enabled = true;
+                _ultimaVoz = _vozConserje;
+                break;
+            }
+            default:
+            {
+                _vozOrca.enabled = true;
+                _ultimaVoz = _vozOrca;
+                break;
+            }
+        }
     }
 
     private void TerminarDialogo()

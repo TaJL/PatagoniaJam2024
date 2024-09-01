@@ -59,9 +59,7 @@ public class Basura : MonoBehaviour
 
         if (_spriteRender != null)
         {
-            Color color = _spriteRender.color;
-            color.a = 0.4f + 0.6f * _tiempoRestante/_tiempoParaLimpiar;
-            _spriteRender.color = color;
+            LeanTween.alpha(_spriteRender.gameObject, 0.2f + 0.8f * _tiempoRestante/_tiempoParaLimpiar, 0.1f);
         }
 
         if (_tiempoRestante <= 0)

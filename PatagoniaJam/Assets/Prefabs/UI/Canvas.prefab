@@ -470,6 +470,8 @@ GameObject:
   - component: {fileID: 4177321997893912037}
   - component: {fileID: 7035762400270691464}
   - component: {fileID: 4542269075935772865}
+  - component: {fileID: 6118619353034064112}
+  - component: {fileID: 7954217117348528451}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -583,3 +585,67 @@ MonoBehaviour:
   _textBox: {fileID: 1153799478721090057}
   _portrait: {fileID: 1042798704501914479}
   _texto: {fileID: 7608789297495829198}
+  _vozConserje: {fileID: 6118619353034064112}
+  _vozOrca: {fileID: 7954217117348528451}
+--- !u!114 &6118619353034064112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7821998357891049679}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1076423365
+      Data2: 1144110976
+      Data3: 356166823
+      Data4: -1249234048
+    Path: event:/Voice_conserje
+  Event: 
+  PlayEvent: 11
+  StopEvent: 12
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &7954217117348528451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7821998357891049679}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 715496769
+      Data2: 1241908926
+      Data3: -2084507258
+      Data4: -95842543
+    Path: event:/Voice_orca
+  Event: 
+  PlayEvent: 11
+  StopEvent: 12
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
