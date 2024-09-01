@@ -3,13 +3,16 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DialogoManager : MonoBehaviour
 {
     public static Action<DialogoData> OnNewDialogoEvent;
 
     [SerializeField] private DialogoData[] _dialogosActivadosPorBasura;
+    [SerializeField] private ImagenesDialogo _portraits;
     [SerializeField] private GameObject _textBox;
+    [SerializeField] private Image _portrait;
     [SerializeField] private TextMeshProUGUI _texto;
     private DialogoData _dialogoActivo;
     private int _dialogoIndex;
@@ -65,7 +68,9 @@ public class DialogoManager : MonoBehaviour
             TerminarDialogo();
             return;
         }
-        _texto.text = _dialogoActivo.GetBurbuja(_dialogoIndex).Mensaje;
+        BurbujaDialogoData burbuja = _dialogoActivo.GetBurbuja(_dialogoIndex);
+        _texto.text = burbuja.Mensaje;
+        _portrait.sprite = _portraits.GetSprite(burbuja.Emisor);
     }
 
     private void TerminarDialogo()
