@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class ContadorBasura : MonoBehaviour
 {
-    public int contadorBasura;
-
+    public int contadorBasura = 0;
+/*
     private void Start()
     {
         contadorBasura = 0;
     }
+*/
     public void sumarContadorbasura()
     {
         contadorBasura++;
