@@ -12,7 +12,7 @@ public class BasuraManager : MonoBehaviour
 
     private void Update()
     {
-        if (cant_spwn < spawn_max)
+        if (period > spawn_time && cant_spwn < spawn_max)
         {
             instatiateGarbage();
             period = 0.0f;
